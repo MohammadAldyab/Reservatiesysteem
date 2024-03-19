@@ -1,0 +1,27 @@
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #bbefd5 !important;
+}
+
+.table-container {
+    margin: 4.5rem auto;
+    /* Adjust the margin as needed */
+    width: 80%;
+    /* Adjust the width as needed */
+}
+
+.table {
+    border: 0.5px solid lightgrey;
+}
+
+.table td {
+    padding: 1rem;
+}
+
+#myInput {
+    width: 100%;
+    font-size: 16px;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    margin: 0.5rem 0 0.5rem 0;
+}

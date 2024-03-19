@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /models/
+
+    RewriteRule ^ - [R=405,L]
+
+    ErrorDocument 405 /reservaties/405.html
+</IfModule>
